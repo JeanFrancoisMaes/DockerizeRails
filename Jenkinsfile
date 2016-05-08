@@ -10,7 +10,7 @@ node {
    
    stage 'Docker Composing'
      
-     sh'docker-compose up'
+     sh'docker-compose up -d'
      
 
 }
